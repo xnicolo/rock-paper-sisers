@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AF6E46A72D1CBD8600B83806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF6E468E2D1CBD8500B83806 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF6E46952D1CBD8500B83806;
+			remoteInfo = "rock paper sisers";
+		};
+		AF6E46B12D1CBD8600B83806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF6E468E2D1CBD8500B83806 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF6E46952D1CBD8500B83806;
+			remoteInfo = "rock paper sisers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF6E46962D1CBD8500B83806 /* rock paper sisers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rock paper sisers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6E46A62D1CBD8600B83806 /* rock paper sisersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rock paper sisersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6E46B02D1CBD8600B83806 /* rock paper sisersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rock paper sisersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AF6E46982D1CBD8500B83806 /* rock paper sisers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "rock paper sisers";
+			sourceTree = "<group>";
+		};
+		AF6E46A92D1CBD8600B83806 /* rock paper sisersTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "rock paper sisersTests";
+			sourceTree = "<group>";
+		};
+		AF6E46B32D1CBD8600B83806 /* rock paper sisersUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "rock paper sisersUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF6E46932D1CBD8500B83806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6E46A32D1CBD8600B83806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6E46AD2D1CBD8600B83806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF6E468D2D1CBD8500B83806 = {
+			isa = PBXGroup;
+			children = (
+				AF6E46982D1CBD8500B83806 /* rock paper sisers */,
+				AF6E46A92D1CBD8600B83806 /* rock paper sisersTests */,
+				AF6E46B32D1CBD8600B83806 /* rock paper sisersUITests */,
+				AF6E46972D1CBD8500B83806 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF6E46972D1CBD8500B83806 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF6E46962D1CBD8500B83806 /* rock paper sisers.app */,
+				AF6E46A62D1CBD8600B83806 /* rock paper sisersTests.xctest */,
+				AF6E46B02D1CBD8600B83806 /* rock paper sisersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF6E46952D1CBD8500B83806 /* rock paper sisers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6E46BA2D1CBD8600B83806 /* Build configuration list for PBXNativeTarget "rock paper sisers" */;
+			buildPhases = (
+				AF6E46922D1CBD8500B83806 /* Sources */,
+				AF6E46932D1CBD8500B83806 /* Frameworks */,
+				AF6E46942D1CBD8500B83806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AF6E46982D1CBD8500B83806 /* rock paper sisers */,
+			);
+			name = "rock paper sisers";
+			packageProductDependencies = (
+			);
+			productName = "rock paper sisers";
+			productReference = AF6E46962D1CBD8500B83806 /* rock paper sisers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF6E46A52D1CBD8600B83806 /* rock paper sisersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6E46BD2D1CBD8600B83806 /* Build configuration list for PBXNativeTarget "rock paper sisersTests" */;
+			buildPhases = (
+				AF6E46A22D1CBD8600B83806 /* Sources */,
+				AF6E46A32D1CBD8600B83806 /* Frameworks */,
+				AF6E46A42D1CBD8600B83806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF6E46A82D1CBD8600B83806 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF6E46A92D1CBD8600B83806 /* rock paper sisersTests */,
+			);
+			name = "rock paper sisersTests";
+			packageProductDependencies = (
+			);
+			productName = "rock paper sisersTests";
+			productReference = AF6E46A62D1CBD8600B83806 /* rock paper sisersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF6E46AF2D1CBD8600B83806 /* rock paper sisersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6E46C02D1CBD8600B83806 /* Build configuration list for PBXNativeTarget "rock paper sisersUITests" */;
+			buildPhases = (
+				AF6E46AC2D1CBD8600B83806 /* Sources */,
+				AF6E46AD2D1CBD8600B83806 /* Frameworks */,
+				AF6E46AE2D1CBD8600B83806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF6E46B22D1CBD8600B83806 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF6E46B32D1CBD8600B83806 /* rock paper sisersUITests */,
+			);
+			name = "rock paper sisersUITests";
+			packageProductDependencies = (
+			);
+			productName = "rock paper sisersUITests";
+			productReference = AF6E46B02D1CBD8600B83806 /* rock paper sisersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF6E468E2D1CBD8500B83806 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					AF6E46952D1CBD8500B83806 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AF6E46A52D1CBD8600B83806 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AF6E46952D1CBD8500B83806;
+					};
+					AF6E46AF2D1CBD8600B83806 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AF6E46952D1CBD8500B83806;
+					};
+				};
+			};
+			buildConfigurationList = AF6E46912D1CBD8500B83806 /* Build configuration list for PBXProject "rock paper sisers" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF6E468D2D1CBD8500B83806;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AF6E46972D1CBD8500B83806 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF6E46952D1CBD8500B83806 /* rock paper sisers */,
+				AF6E46A52D1CBD8600B83806 /* rock paper sisersTests */,
+				AF6E46AF2D1CBD8600B83806 /* rock paper sisersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF6E46942D1CBD8500B83806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6E46A42D1CBD8600B83806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6E46AE2D1CBD8600B83806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF6E46922D1CBD8500B83806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6E46A22D1CBD8600B83806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6E46AC2D1CBD8600B83806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF6E46A82D1CBD8600B83806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF6E46952D1CBD8500B83806 /* rock paper sisers */;
+			targetProxy = AF6E46A72D1CBD8600B83806 /* PBXContainerItemProxy */;
+		};
+		AF6E46B22D1CBD8600B83806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF6E46952D1CBD8500B83806 /* rock paper sisers */;
+			targetProxy = AF6E46B12D1CBD8600B83806 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF6E46B82D1CBD8600B83806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF6E46B92D1CBD8600B83806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF6E46BB2D1CBD8600B83806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rock paper sisers/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.rock-paper-sisers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF6E46BC2D1CBD8600B83806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rock paper sisers/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.rock-paper-sisers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF6E46BE2D1CBD8600B83806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.rock-paper-sisersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rock paper sisers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rock paper sisers";
+			};
+			name = Debug;
+		};
+		AF6E46BF2D1CBD8600B83806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.rock-paper-sisersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rock paper sisers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rock paper sisers";
+			};
+			name = Release;
+		};
+		AF6E46C12D1CBD8600B83806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.rock-paper-sisersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "rock paper sisers";
+			};
+			name = Debug;
+		};
+		AF6E46C22D1CBD8600B83806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.rock-paper-sisersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "rock paper sisers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF6E46912D1CBD8500B83806 /* Build configuration list for PBXProject "rock paper sisers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6E46B82D1CBD8600B83806 /* Debug */,
+				AF6E46B92D1CBD8600B83806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6E46BA2D1CBD8600B83806 /* Build configuration list for PBXNativeTarget "rock paper sisers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6E46BB2D1CBD8600B83806 /* Debug */,
+				AF6E46BC2D1CBD8600B83806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6E46BD2D1CBD8600B83806 /* Build configuration list for PBXNativeTarget "rock paper sisersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6E46BE2D1CBD8600B83806 /* Debug */,
+				AF6E46BF2D1CBD8600B83806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6E46C02D1CBD8600B83806 /* Build configuration list for PBXNativeTarget "rock paper sisersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6E46C12D1CBD8600B83806 /* Debug */,
+				AF6E46C22D1CBD8600B83806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF6E468E2D1CBD8500B83806 /* Project object */;
+}
